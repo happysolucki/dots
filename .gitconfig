@@ -1,0 +1,10 @@
+[user]
+	name = Brandon Keefer
+	email = happysolucki@outlook.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
+	rebase = false
