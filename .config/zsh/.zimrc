@@ -5,6 +5,9 @@
 #
 # Modules
 #
+if [[ $(uname) == "Darwin" ]]; then
+    zmodule homebrew
+fi
 
 # Sets sane Zsh built-in environment options.
 zmodule environment
