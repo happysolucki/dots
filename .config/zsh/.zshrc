@@ -118,3 +118,4 @@ bindkey -v
 # compinit
 # End of lines added by compinstall
 . "$HOME/.cargo/env"
+eval "$(fnm env --use-on-cd --version-file-strategy=recursive --shell zsh)"
