@@ -117,4 +117,4 @@ bindkey -v
 # autoload -Uz compinit
 # compinit
 # End of lines added by compinstall
-export PATH=$HOME/.local/bin:$PATH
+. "$HOME/.cargo/env"

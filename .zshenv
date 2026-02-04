@@ -27,6 +27,7 @@ if [[ $(uname) == "Linux" ]]; then
   export EDITOR="vim"
 elif [[ $(uname) == "Darwin" ]]; then
   export ZDOTDIR=${ZDOTDIR:-$HOME/.config/zsh}
+else
 fi
 
 
@@ -37,7 +38,8 @@ fi
 # export EDITOR="vim"
 
 # Exported variables
-export TERM=screen-256color
 # export MOZ_ENABLE_WAYLAND=1
+export TERM=screen-256color
 
 # export STARSHIP_CONFIG="${XDG_CONFIG_HOME}/starship/starship.toml"
+# . "$HOME/.cargo/env"
