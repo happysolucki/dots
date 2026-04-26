@@ -1,0 +1,33 @@
+[colors]
+ansi = [
+    '#3a3c4c',
+    '#eca28f',
+    '#a0d0ba',
+    '#c0b080',
+    '#9fbfe7',
+    '#e9acbf',
+    '#a0c0d0',
+    '#edf0f8'
+]
+brights = [
+    '#3a3c4c',
+    '#eca28f',
+    '#a0d0ba',
+    '#c0b080',
+    '#9fbfe7',
+    '#e9acbf',
+    '#a0c0d0',
+    '#edf0f8'
+]
+cursor_bg = '#99ddee'
+cursor_border = '#99ddee'
+cursor_fg = '#2a283d'
+background = '#2a283d'
+foreground = '#edf0f8'
+selection_bg = '#496278'
+selection_fg = '#edf0f8'
+
+[metadata]
+name = 'Doric-Water'
+author = 'anhsirk0'
+origin_url = 'https://codeberg.org/anhsirk0/wezterm-themes/src/branch/main/colors/doric-water.toml'
