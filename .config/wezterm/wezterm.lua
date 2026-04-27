@@ -11,8 +11,8 @@ local config = wezterm.config_builder()
 -- config.initial_rows = 28
 
 -- or, changing the font size and color scheme.
-config.font = wezterm.font 'GT America Mono'
-config.font_size = 13
+config.font = wezterm.font 'Elma Mono'
+config.font_size = 14
 config.color_scheme = 'Ef-Dream'
 
 -- Finally, return the configuration to wezterm:
